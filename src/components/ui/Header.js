@@ -94,7 +94,7 @@ const useStyles = makeStyles((theme) => ({
     padding: 0,
   },
   menu: {
-    backgroundColor: theme.palette.common.blue,
+    backgroundColor: "#FFFFFF",
     color: "#2c2e2e",
     borderRadius: "0px",
   },
@@ -117,7 +117,7 @@ const useStyles = makeStyles((theme) => ({
     width: "40px",
   },
   drawer: {
-    backgroundColor: theme.palette.common.blue,
+    backgroundColor: "#FFFFFF",
   },
   drawerItem: {
     ...theme.typography.tab,
