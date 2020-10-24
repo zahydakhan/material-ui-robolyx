@@ -31,15 +31,6 @@ const useStyles = makeStyles((theme) => ({
       padding: "2.5em",
     },
   },
-  savingStyles: {
-    maxWidth: "29em",
-    minWidth: "25em",
-    marginTop: "2em",
-    [theme.breakpoints.down("xs")]: {
-      maxWidth: "30em",
-      minWidth: "21em",
-    },
-  },
 
   learnButton: {
     ...theme.typography.learnButton,
@@ -49,6 +40,24 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "1em",
     [theme.breakpoints.down("sm")]: {
       marginBottom: "2em",
+    },
+  },
+  icon: {
+    maxWidth: "30em",
+    minWidth: "27em",
+    marginTop: "2em",
+    [theme.breakpoints.down("xs")]: {
+      maxWidth: "30em",
+      minWidth: "21em",
+    },
+  },
+  savingStyles: {
+    maxWidth: "29em",
+    minWidth: "25em",
+    marginTop: "2em",
+    [theme.breakpoints.down("xs")]: {
+      maxWidth: "30em",
+      minWidth: "21em",
     },
   },
 }));
